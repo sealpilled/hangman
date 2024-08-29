@@ -1,7 +1,3 @@
-Duration: 0:05:00
-
-In this Codelab, you'll learn how to build a simple Hangman game using Python. Hangman is a classic word-guessing game where a player tries to guess a hidden word by suggesting letters one at a time. Each incorrect guess brings the player closer to losing as parts of a hangman are drawn.
-
 ### What you'll learn
 - Setting up a Python project.
 - Working with lists, strings, and basic game logic.
@@ -14,8 +10,6 @@ In this Codelab, you'll learn how to build a simple Hangman game using Python. H
 - Basic understanding of Git.
 
 ## Step 1: Setting Up Your Environment
-
-Duration: 0:05:00
 
 ### 1.1. Clone the Hangman Template
 
@@ -70,8 +64,6 @@ HANGMAN = (
 
 ## Step 2: Printing the Welcome Message
 
-Duration: 0:05:00
-
 ### 2.1. Print the Welcome Message
 
 Let's start by adding a welcome message to the player when they start the game.
@@ -93,8 +85,6 @@ def main():
 
 ## Step 3: Starting the Main Game Loop
 
-Duration: 0:05:00
-
 ### 3.1. Loop for Playing Again
 
 Allow the player to replay the game without restarting the program.
@@ -112,8 +102,6 @@ Allow the player to replay the game without restarting the program.
 - The `while` loop continues as long as the player wants to play.
 
 ## Step 4: Choosing a Word and Setting Up the Game
-
-Duration: 0:10:00
 
 ### 4.1. Choosing a Random Word
 
@@ -139,8 +127,6 @@ Set up a list of possible words and select one randomly for the game.
 
 ## Step 5: Displaying the Hangman Stages
 
-Duration: 0:05:00
-
 ### 5.1. Using the Hangman Stages
 
 Use the hangman stages defined in the template to show the player's remaining attempts visually.
@@ -156,8 +142,6 @@ Use the hangman stages defined in the template to show the player's remaining at
 - Set the number of attempts based on the number of stages available in `HANGMAN`.
 
 ## Step 6: Running the Game Loop
-
-Duration: 0:15:00
 
 ### 6.1. Implementing the Guessing Loop
 
@@ -193,8 +177,6 @@ Implement the main game loop where the player guesses letters.
 
 ## Step 7: Ending the Game
 
-Duration: 0:05:00
-
 ### 7.1. Determine Win or Loss
 
 After the loop ends, determine whether the player has won or lost.
@@ -228,7 +210,5 @@ Ask the player if they want to play again.
 - Update the `play_again` variable based on their response.
 
 ## Congratulations!
-
-Duration: 0:02:00
 
 You've successfully built a Hangman game in Python! Feel free to modify the code, add more words, or enhance the game with additional features. Keep practicing, and enjoy coding!
